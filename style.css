@@ -1,0 +1,41 @@
+#premierBloc{
+	background-image: url(./img/campagne\ extérieur.jpeg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position-y: center;
+	height: 35em;
+	width: 100%;
+}
+
+#premierBloc nav li {
+	list-style: none;
+	display: inline-block;
+
+	margin-right: 2em;
+	margin-top: 1em;
+}
+
+
+#premierBloc nav li a {
+	font-family: 'Reem Kufi Fun', sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px solid black;
+}
+
+.floatRight {
+	float: right;
+}
+.floatRight img {
+	width: 2em;
+}
+#premierBloc #aNoBorder {
+	border: none;
+}
+
+#premierBloc nav li a:hover {
+	color : white;
+	border-bottom: 1px solid white;
+}
+
