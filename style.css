@@ -1,29 +1,39 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+   } 
 #premierBloc{
 	background-image: url(./img/campagne\ extérieur.jpeg);
 	background-size: cover; 
 	background-repeat: no-repeat;
 	background-position-y: center;
-	height: 35em;
+	height: 40vw;
 	width: 100%;
 }
+#premierBloc .navigation {
 
-#premierBloc nav li {
+}
+#premierBloc .navigation li {
 	list-style: none;
-	display: inline-block;
-
-	margin-right: 2em;
-	margin-top: 1em;
 }
 
-
-#premierBloc nav li a {
-	font-family: 'Reem Kufi Fun', sans-serif;
+#premierBloc .navigation ul {
+	background-color: white;
+	height: 6vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#premierBloc .navigation li a {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 600;
 	font-size: 18px;
 	text-decoration: none;
 	color: black;
-	border-bottom: 1px solid black;
 }
 
+/*
 .floatRight {
 	float: right;
 }
@@ -33,9 +43,9 @@
 #premierBloc #aNoBorder {
 	border: none;
 }
+*/
 
-#premierBloc nav li a:hover {
+#premierBloc .navigation li a:hover {
 	color : white;
-	border-bottom: 1px solid white;
 }
 
