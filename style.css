@@ -3,49 +3,69 @@
 	padding: 0; 
 	box-sizing: border-box; 
    } 
+/* CSS pour la barre de navigation */
 #premierBloc{
-	background-image: url(./img/campagne\ extérieur.jpeg);
+	background-image: url(./img/jaccuzi.jpeg);
 	background-size: cover; 
 	background-repeat: no-repeat;
-	background-position-y: center;
-	height: 40vw;
+	background-position: center; 
+	height: 27em;
 	width: 100%;
 }
 #premierBloc .navigation {
-
 }
 #premierBloc .navigation li {
 	list-style: none;
+	width: 15em;
+	text-align: center;
+	margin-top : 1.5em;
+	margin-bottom: 1.5em;
 }
 
 #premierBloc .navigation ul {
-	background-color: white;
-	height: 6vw;
+	background-color: rgba(255, 255, 255, 0.65);
+	height:auto;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	flex-wrap: wrap;
 }
 #premierBloc .navigation li a {
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 600;
-	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.15em;
+	font-size: 1.1em;
 	text-decoration: none;
 	color: black;
 }
-
-/*
-.floatRight {
-	float: right;
-}
-.floatRight img {
-	width: 2em;
-}
-#premierBloc #aNoBorder {
-	border: none;
-}
-*/
-
 #premierBloc .navigation li a:hover {
-	color : white;
+	border-bottom: 1px solid black;
+}
+
+/* CSS pour le deuxième bloc */
+#deuxiemeBloc{
+	height: 27em;
+	width: 100%;
+}
+#deuxiemeBloc .boutonDecouvrir a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500 ;
+	font-size: 1.8em;
+}
+
+#deuxiemeBloc .boutonDecouvrir  {
+	position: relative;
+	text-align: center;
+	bottom: 1.15em;
+	background-color: rgb(237, 193, 131);
+	width: 13em;
+	margin: auto;
+	border: 0.1em solid black;
+	border-radius: 0.9em;
+}
+#deuxiemeBloc .boutonDecouvrir p {
+
 }
 
